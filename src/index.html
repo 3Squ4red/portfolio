@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jeet</title>
+    <meta
+      name="description"
+      content="Ethereum developer,Solidity engineer and a blockchain enthusiast"
+    />
+    <meta
+      name="keywords"
+      content="abhijeet ranjan, ethereum, solidity, smart contracts, blockchain"
+    />
+    <meta name="author" content="Abhijeet Ranjan" />
+    <script type="module" src="assets/js/config.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css"
+    />
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/icons/favicons/site.webmanifest" />
+  </head>
+  <body>
+    <!-- loading -->
+    <div class="loading">
+      <div class="loading__box">
+        <img
+          src="assets/images/loaders/loader20.svg"
+          alt="loading background"
+          class="loading__svg"
+        />
+        <div class="loading__text">
+          <div class="loading__text--border loading__width_animation"></div>
+          L
+          <div class="loading__text--dot"></div>
+          ADING
+        </div>
+        <div class="loading__bar">
+          <div class="loading__bar--inner"></div>
+        </div>
+        <div class="loading__counter">
+          <span>0%</span>
+          <div class="loading__counter--number">0%</div>
+        </div>
+      </div>
+    </div>
+    <!-- landing -->
+    <div class="landing">
+      <!-- three.js bg -->
+      <div class="three__bg"></div>
+      <!-- header -->
+      <header class="header">
+        <div class="header__wrap">
+          <div class="header__left">
+            <ul>
+              <li>
+                <a href="#" class="coolLink" data-text="Home"
+                  ><span>Home</span></a
+                >
+              </li>
+              <li class="header__sm">
+                <a href="#skill" class="coolLink" data-text="Skills"
+                  ><span>Skills</span></a
+                >
+              </li>
+              <li>
+                <a href="#project" class="coolLink" data-text="Projects"
+                  ><span>Projects</span></a
+                >
+              </li>
+              <li class="header__sm">
+                <a href="#aboutme" class="coolLink" data-text="About me"
+                  ><span>About me</span></a
+                >
+              </li>
+              <li class="header__sm">
+                <a href="#contactme" class="coolLink" data-text="Contact"
+                  ><span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header__right">
+            <button
+              class="coolButton enableEthereumButton"
+              title="Connect your MetaMask wallet"
+            >
+              <span>Connect</span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- introduction -->
+      <div class="intro">
+        <h4>Hey there!🙋‍♂️ I am</h4>
+        <h1 id="shadedImage">Abhijeet Ranjan</h1>
+        <h1 id="shadedImage"><span class="eth">Ethereum</span> ⧫ Developer</h1>
+        <h1 id="shadedImage">and <span class="sol">Solidity</span> Engineer</h1>
+        <h4>from India</h4>
+      </div>
+      <!-- socials -->
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/abhijeet-ranjan-633848144/"
+          title="LinkedIn"
+          target="_blank"
+        >
+          <i class="uil uil-linkedin coloredIcon"></i>
+        </a>
+        <a
+          href="https://github.com/bytecode-velocity"
+          title="GitHub"
+          target="_blank"
+        >
+          <i class="uil uil-github coloredIcon"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/sweetjimmy_/"
+          title="Instagram"
+          target="_blank"
+        >
+          <i class="uil uil-instagram coloredIcon"></i>
+        </a>
+        <a href="https://t.me/sweet_jimmy" title="Telegram" target="_blank">
+          <i class="uil uil-telegram coloredIcon"></i>
+        </a>
+        <a
+          href="mailto:velocitybytecode@gmail.com"
+          title="Send me an email"
+          target="_blank"
+        >
+          <i class="uil uil-envelope coloredIcon"></i>
+        </a>
+      </div>
+      <!-- scroll down -->
+      <div class="scrollDown">
+        <div class="scrollDown__wheel">
+          <div class="scrollDown__wheel--inner"></div>
+        </div>
+        <div class="scrollDown__arrows">
+          <span class="scrollDown__arrow"></span
+          ><span class="scrollDown__arrow"></span
+          ><span class="scrollDown__arrow"></span>
+        </div>
+      </div>
+    </div>
+    <!-- skills -->
+    <section id="skill" class="skills">
+      <div class="skills__header">my skills</div>
+      <!-- hard skills -->
+      <marquee
+        behavior="scroll"
+        direction="left"
+        scrollamount="5"
+        class="skills__text skills__text--right"
+      >
+        JavaScript&nbsp;&nbsp;&nbsp; Hardhat&nbsp;&nbsp;&nbsp;
+        Ganache&nbsp;&nbsp;&nbsp; Ethereum&nbsp;&nbsp;&nbsp;
+        Blockchain&nbsp;&nbsp;&nbsp; Solidity&nbsp;&nbsp;&nbsp;
+        ethers.js&nbsp;&nbsp;&nbsp; Remix IDE&nbsp;&nbsp;&nbsp;
+        Java&nbsp;&nbsp;&nbsp; Python&nbsp;&nbsp;&nbsp; Git
+      </marquee>
+      <!-- soft skills -->
+      <marquee
+        behavior="scroll"
+        scrollamount="5"
+        direction="right"
+        class="skills__text skills__text--left"
+      >
+        Quick learning&nbsp;&nbsp;&nbsp; Work ethic&nbsp;&nbsp;&nbsp;
+        Adaptability&nbsp;&nbsp;&nbsp; Critical thinking&nbsp;&nbsp;&nbsp;
+        Cooperation&nbsp;&nbsp;&nbsp; Communication&nbsp;&nbsp;&nbsp Staying
+        composed
+      </marquee>
+    </section>
+    <!-- projects -->
+    <section id="project" class="section projects">
+      <h1 class="projects__header">projects I worked on</h1>
+      <!-- Ether Lottery -->
+      <div class="project">
+        <div class="project__header">
+          <span>1/9</span>
+          <span>dApp</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Ether Lottery</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/etherlottery.png"
+            alt="Ether Lottery project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/Lottery-dApp"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+            <a
+              href="https://lottery-dapp-bytecode-velocity.vercel.app/"
+              title="live website"
+              class="coolCircleEyeButton"
+              target="_blank"
+            >
+              <svg class="textcircle" viewBox="0 0 500 500">
+                <defs>
+                  <path
+                    id="textcircle"
+                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                  />
+                </defs>
+                <text>
+                  <textPath
+                    xlink:href="#textcircle"
+                    aria-label=".Click to see the live version."
+                    textLength="900"
+                  >
+                    Click to see the live version.
+                  </textPath>
+                </text>
+              </svg>
+              <svg
+                class="eye"
+                aria-hidden="true"
+                class="eye"
+                viewBox="0 0 70 70"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="eye__outer"
+                  d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"
+                />
+                <path
+                  class="eye__lashes-up"
+                  d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192"
+                />
+                <path
+                  class="eye__lashes-down"
+                  d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z"
+                />
+                <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
+                <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+              </svg>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://nextjs.org/" class="coolFunnyLink">
+              <span>Next.js</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://bulma.io/" class="coolFunnyLink">
+              <span>Bulma</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.chain.link/vrf/v2/introduction"
+              class="coolFunnyLink"
+            >
+              <span>Chainlink VRF</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- NFT Marketplace -->
+      <div class="project">
+        <div class="project__header">
+          <span>2/9</span>
+          <span>dApp</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Cuties NFT Marketplace</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/nftmarketplace.png"
+            alt="NFT Marketplace project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/nft-marketplace"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+            <a
+              href="https://nft-marketplace-bytecode-velocity.vercel.app/"
+              title="live website"
+              class="coolCircleEyeButton"
+              target="_blank"
+            >
+              <svg class="textcircle" viewBox="0 0 500 500">
+                <defs>
+                  <path
+                    id="textcircle"
+                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                  />
+                </defs>
+                <text>
+                  <textPath
+                    xlink:href="#textcircle"
+                    aria-label=".Click to see the live version."
+                    textLength="900"
+                  >
+                    Click to see the live version.
+                  </textPath>
+                </text>
+              </svg>
+              <svg
+                class="eye"
+                aria-hidden="true"
+                class="eye"
+                viewBox="0 0 70 70"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="eye__outer"
+                  d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"
+                />
+                <path
+                  class="eye__lashes-up"
+                  d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192"
+                />
+                <path
+                  class="eye__lashes-down"
+                  d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z"
+                />
+                <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
+                <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+              </svg>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://nextjs.org/" class="coolFunnyLink">
+              <span>Next.js</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.typescriptlang.org/" class="coolFunnyLink">
+              <span>TypeScript</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.openzeppelin.com/contracts"
+              class="coolFunnyLink"
+            >
+              <span>OpenZeppelin</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Love Faucet -->
+      <div class="project">
+        <div class="project__header">
+          <span>3/9</span>
+          <span>dApp</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">LOVE Faucet</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/lovefaucet.png"
+            alt="Love Faucet project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/LoveToken-Faucet"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+            <a
+              href="https://gentle-glade-3314.on.fleek.co/"
+              title="live website"
+              class="coolCircleEyeButton"
+              target="_blank"
+            >
+              <svg class="textcircle" viewBox="0 0 500 500">
+                <defs>
+                  <path
+                    id="textcircle"
+                    d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                  />
+                </defs>
+                <text>
+                  <textPath
+                    xlink:href="#textcircle"
+                    aria-label=".Click to see the live version."
+                    textLength="900"
+                  >
+                    Click to see the live version.
+                  </textPath>
+                </text>
+              </svg>
+              <svg
+                class="eye"
+                aria-hidden="true"
+                class="eye"
+                viewBox="0 0 70 70"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="eye__outer"
+                  d="M10.5 35.308c5.227-7.98 14.248-13.252 24.5-13.252s19.273 5.271 24.5 13.252c-5.227 7.98-14.248 13.253-24.5 13.253s-19.273-5.272-24.5-13.253z"
+                />
+                <path
+                  class="eye__lashes-up"
+                  d="M35 8.802v8.836M49.537 11.383l-3.31 8.192M20.522 11.684l3.31 8.192"
+                />
+                <path
+                  class="eye__lashes-down"
+                  d="M35 61.818v-8.836 8.836zM49.537 59.237l-3.31-8.193 3.31 8.193zM20.522 58.936l3.31-8.193-3.31 8.193z"
+                />
+                <circle class="eye__iris" cx="35" cy="35.31" r="5.221" />
+                <circle class="eye__inner" cx="35" cy="35.31" r="10.041" />
+              </svg>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://reactjs.org/" class="coolFunnyLink">
+              <span>React.js</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://bulma.io/" class="coolFunnyLink">
+              <span>Bulma</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.openzeppelin.com/contracts"
+              class="coolFunnyLink"
+            >
+              <span>OpenZeppelin</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Dutch Auction -->
+      <div class="project">
+        <div class="project__header">
+          <span>4/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Dutch Auction</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/dutchauction.png"
+            alt="Dutch Auction project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/DutchAuction"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- English Auction -->
+      <div class="project">
+        <div class="project__header">
+          <span>5/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">English Auction</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/englishauction.png"
+            alt="English Auction project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/EnglishAuction"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Multi-Sig Wallet -->
+      <div class="project">
+        <div class="project__header">
+          <span>6/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Multi-Sig Wallet</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/multisigwallet.png"
+            alt="Multi-Sig Wallet project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/MultiSigWallet"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Piggy Bank -->
+      <div class="project">
+        <div class="project__header">
+          <span>7/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Piggy Bank</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/piggybank.png"
+            alt="Piggy Bank project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/PiggyBank"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Polls Voting -->
+      <div class="project">
+        <div class="project__header">
+          <span>8/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Polls Voting</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/pollvoting.png"
+            alt="Polls Voting project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/PollVoting"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Crowd Funding -->
+      <div class="project">
+        <div class="project__header">
+          <span>9/9</span>
+          <span>Smart Contract</span>
+        </div>
+        <div class="project__infos">
+          <h1 class="project__infos--name">Crowd-Funding</h1>
+        </div>
+        <div class="project__img">
+          <img
+            src="assets/images/projects/crowdfunding.png"
+            alt="Crowd Funding project image"
+          />
+          <div class="project__links">
+            <a
+              href="https://github.com/bytecode-velocity/CrowdFunding"
+              title="source code"
+              target="_blank"
+            >
+              <button class="coolButton">
+                <span>GitHub</span>
+              </button>
+            </a>
+          </div>
+          <div class="project__tags">
+            <a href="https://hardhat.org/" class="coolFunnyLink">
+              <span>Hardhat</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://mochajs.org/" class="coolFunnyLink">
+              <span>Mocha JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a href="https://www.chaijs.com/" class="coolFunnyLink">
+              <span>Chai JS</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://docs.soliditylang.org/en/v0.8.17/"
+              class="coolFunnyLink"
+            >
+              <span>Solidity</span>
+              <svg width="100%" height="9" viewBox="0 0 101 9">
+                <path
+                  d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+                  pathLength="1"
+                  fill="none"
+                  stroke="#000"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about me -->
+    <div id="aboutme" class="aboutMe">
+      <h1 class="aboutMe__header">about me</h1>
+      <hr />
+      <p class="aboutMe__text">
+        In a world where everyone's data is owned by a select few companies,
+        blockchain seemed a way out to me. And so, almost a year ago, with the
+        dawn of the new year 2022, I resolved to not just start learning
+        blockchain but also get really deep into it. Since then, some online
+        paid courses and a lot of free documentation and videos have taught me a
+        lot about it and now I feel confident in writing safe and gas-optimized
+        smart contracts for just about anything in Solidity. I plan to expand my
+        knowledge base to other blockchains as well in 2023: Solana and Algorand
+        in particular. And hopefully, by the end of the next year, I might be
+        proficient in Rust or PyTeal or even both! <br /><br />
+        Among the above projects, there's one about an ERC-20 token which I
+        named 'Love Token'. If you have
+        <a
+          class="metamask"
+          href="https://metamask.io/"
+          target="_blank"
+          title="MetaMask - A web3 wallet"
+          ><span>MetaMask</span></a
+        >
+        wallet extension installed on the browser you're reading this from,
+        click <span class="love">here</span> to add the token to your wallet.<br />And
+        just to show you my appreciation for coming to my portfolio website, I'd
+        like to give you 20 tokens of LOVE from its
+        <a
+          class="faucet"
+          href="https://gentle-glade-3314.on.fleek.co/"
+          target="_blank"
+          title="LOVE Faucet"
+          >faucet</a
+        >
+        ! Just make sure to be on the Goerli testnet.<br />What to do with it?
+        🤗 You can spend it on sending me direct messages from below. It costs 5
+        LOVE for every message! <br /><br />
+        P.S. If for some reason you cannot send messages from below, use
+        <a
+          href="https://formsubmit.co/el/bucavo"
+          style="color: blue"
+          title="send me an email"
+          target="_blank"
+          >this</a
+        >
+        link to send me an email.
+      </p>
+    </div>
+    <!-- contact -->
+    <section id="contactme" class="section contact">
+      <div class="contact__wrapper">
+        <div class="contact__header">
+          <h1 class="section__header-title">get in touch</h1>
+        </div>
+        <hr />
+        <div class="contact__form">
+          <form method="POST" class="form" onsubmit="return false;">
+            <div class="form__flex">
+              <div class="form__info">
+                <label for="name">Hi, my name is </label>
+                <input
+                  id="nameInput"
+                  type="text"
+                  placeholder="enter your name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="form__info">
+                <label for="subject">I want to talk about </label>
+                <input
+                  id="subjectInput"
+                  type="text"
+                  name="subject"
+                  placeholder="this message is about?"
+                />
+              </div>
+            </div>
+            <div class="form__flex">
+              <div class="form__info">
+                <label for="email">Get in touch with me at </label>
+                <input
+                  id="emailInput"
+                  type="email"
+                  placeholder="drop your email"
+                  name="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form__flex">
+              <textarea
+                id="messageInput"
+                required
+                placeholder="write your message here"
+                name="message"
+              ></textarea>
+            </div>
+            <div class="form__flex">
+              <button type="submit" class="coolButton">
+                <span>Send <i class="uil uil-message"></i> </span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="contact__footer">
+          <div class="contact__footer-link">jeet</div>
+          <div class="contact__footer-link">Copyright&copy;2022</div>
+          <div class="contact__footer-link">Stay safe 👋</div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/threeBG.js"></script>
+    <script type="module" src="assets/js/shaded3DImage.js"></script>
+  </body>
+</html>

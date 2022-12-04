@@ -1,0 +1,58 @@
+@import "./properties.scss";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  &:after,
+  &:before {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: aesthetThin, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: $secondary-color;
+  height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+// https://m2.material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=212121&primary.text.color=ffffff&secondary.color=FCE4EC

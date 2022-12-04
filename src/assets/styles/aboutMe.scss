@@ -1,0 +1,33 @@
+@import "./properties.scss";
+
+.aboutMe {
+  background: linear-gradient(to right, #f3e5ce, #f4deb7, #f3e4ce);
+  padding: 5px 2rem;
+  position: relative;
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  &__header {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  &__text {
+    padding: 2rem 4.5%;
+    font-size: 2em;
+    font-family: aesthetThin;
+    .metamask {
+      color: $metamask-color;
+    }
+    .love,
+    .faucet {
+      color: $love-color;
+    }
+    @media (max-width: 740px) {
+      font-size: 1em;
+    }
+  }
+}

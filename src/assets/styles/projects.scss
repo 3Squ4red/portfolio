@@ -1,0 +1,137 @@
+@import "./properties.scss";
+
+.projects {
+  &__header {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  padding: 5px 3rem;
+}
+
+.project {
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    span {
+      border-top: 1px solid black;
+      padding: 1rem;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  &__infos {
+    margin-top: 1rem;
+    &--name {
+      position: relative;
+      font-size: 3vw;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__img {
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    img {
+      width: 60vw;
+      height: 600px;
+      object-fit: contain;
+      position: absolute;
+      right: 10vw;
+    }
+  }
+  &__links {
+    padding-top: 3rem;
+    button {
+      &:before {
+        background: black;
+      }
+      &:after {
+        display: none;
+      }
+    }
+  }
+  &__tags {
+    position: absolute;
+    bottom: 11rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.coolFunnyLink {
+  position: relative;
+  font-family: aesthetThin;
+  svg {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    stroke-width: 1px;
+    width: 95px;
+    path {
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+    }
+  }
+  &:hover {
+    svg path {
+      stroke-dashoffset: 0;
+      transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
+    }
+  }
+}
+
+@media (max-width: 1350px) {
+  .projects {
+    padding: 3rem;
+  }
+  .project__img img {
+    width: 74vw;
+    right: 5rem;
+  }
+  .project__infos--name {
+    font-size: 30px;
+  }
+  .project .coolCircleEyeButton {
+    transform: translate(7rem, -11rem);
+  }
+}
+
+@media (max-width: 740px) {
+  .projects {
+    padding: 1rem;
+  }
+  .project__tags {
+    flex-direction: row;
+    top: 0;
+    left: 0;
+  }
+  .project__infos--name {
+    font-size: 35px;
+    span {
+      display: none;
+    }
+  }
+  .project__img img {
+    width: 85vw;
+    right: 3rem;
+  }
+}
+
+@media (max-width: 440px) {
+//   .project .coolCircleEyeButton {
+//     transform: translate(0);
+//   }
+  .project__tags {
+    gap: 6px;
+    font-size: 14px;
+  }
+  .project__header span {
+    font-size: 25px;
+  }
+}

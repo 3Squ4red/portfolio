@@ -1,0 +1,32 @@
+$primary-color: #212121;
+$primary-light: #484848;
+$primary-light-light: #4848488f;
+$primary-dark: #000000;
+
+$secondary-color: #fce4ec;
+$secondary-light: #ffffff;
+$secondary-dark: #c9b2ba;
+$secondary-dark-light: #c9b2ba5d;
+$skills-background: #ffea00;
+$metamask-color: #f58521;
+$love-color: #d50000;
+
+@font-face {
+  font-family: aesthetThin;
+  src: url("../fonts/aesthet/aesthet_thin.otf");
+}
+
+@font-face {
+  font-family: aesthetRegular;
+  src: url("../fonts/aesthet/aesthet_regular.otf");
+}
+
+@font-face {
+  font-family: aesthetBold;
+  src: url("../fonts/aesthet/aesthet_bold.otf");
+}
+
+@font-face {
+  font-family: aesthetBlack;
+  src: url("../fonts/aesthet/aesthet_black.otf");
+}

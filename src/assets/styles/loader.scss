@@ -1,0 +1,122 @@
+@import "./properties.scss";
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  background: $primary-color;
+  display: grid;
+  place-items: center;
+  font-family: aesthetThin;
+  // display: none; // must be removed soon
+  &__box {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 3px solid $primary-light;
+    border-top: 3px solid $primary-light-light;
+    border-bottom: 3px solid $primary-light-light;
+    @media (max-width: 600px) {
+      & {
+        width: 90vw;
+      }
+    }
+  }
+  &__bar {
+    width: 90%;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $primary-light;
+    border-radius: 2px;
+    &--inner {
+      height: 100%;
+      width: 0%;
+      border-radius: 2px;
+      background: $secondary-dark;
+    }
+  }
+  &__text {
+    position: relative;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 355px) {
+      & {
+        font-size: 17px;
+      }
+    }
+    &--dot {
+      width: 15px;
+      height: 15px;
+      margin: 0 3px;
+      border-radius: 50%;
+      background: #ffffff;
+      animation: pulse 1s infinite;
+      @keyframes pulse {
+        from {
+          opacity: 0;
+          background: $secondary-color;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    }
+    &--border {
+      width: 85%;
+      height: 1px;
+      background: $secondary-dark-light;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__counter {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    &--number {
+      color: $secondary-color;
+    }
+  }
+  &__width_animation {
+    animation: width_animation 1s forwards;
+    @keyframes width_animation {
+      0% {
+        width: 85%;
+      }
+      100% {
+        width: 200px;
+      }
+    }
+  }
+  &__svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    opacity: 0;
+  }
+}

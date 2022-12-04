@@ -1,0 +1,59 @@
+@import "./properties.scss";
+
+.skills {
+  position: relative;
+  font-size: 40px;
+  height: 300px;
+  background: $skills-background;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: aesthetRegular;
+  &__header {
+    font-weight: 600;
+  }
+  &__text {
+    position: absolute;
+    white-space: nowrap;
+    &--right {
+      left: 0;
+      top: 6rem;
+      //   animation: moveright 30s linear infinite;
+      //   @keyframes moveright {
+      //     0% {
+      //       transform: translate3d(0, 0, 0);
+      //     }
+      //     100% {
+      //       transform: translate3d(50, 0, 0);
+      //     }
+      //   }
+    }
+    &--left {
+      right: 0;
+      top: 11rem;
+      //   animation: moveleft 30s linear infinite;
+      //   @keyframes moveleft {
+      //     0% {
+      //       transform: translate3d(0, 0, 0);
+      //     }
+      //     100% {
+      //       transform: translate3d(-50, 0, 0);
+      //     }
+      //   }
+    }
+  }
+  @media (max-width: 700px) {
+    & {
+      height: 200px;
+    }
+    &__text {
+      font-size: 20px;
+      &--right {
+        top: 5rem;
+      }
+      &--left {
+        top: 8rem;
+      }
+    }
+  }
+}
